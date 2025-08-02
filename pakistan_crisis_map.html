@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_557ae2d5b80b1f42f34b92f3ff9d3c32 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_557ae2d5b80b1f42f34b92f3ff9d3c32" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_557ae2d5b80b1f42f34b92f3ff9d3c32 = L.map(
+                "map_557ae2d5b80b1f42f34b92f3ff9d3c32",
+                {
+                    center: [30.3753, 69.3451],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c35140feac58ad842ea6c7c70963950 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2c35140feac58ad842ea6c7c70963950.addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var marker_5723fa2cad35775bba653edfd7fa8095 = L.marker(
+                [32.6056744, 70.9113526],
+                {}
+            ).addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var icon_4e93ea7d46bb3ce8038b61a57f0b188d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5723fa2cad35775bba653edfd7fa8095.setIcon(icon_4e93ea7d46bb3ce8038b61a57f0b188d);
+        
+    
+        var popup_b77cfde556891b2ee65f57b3e33eb0a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fda50bd992c9292e2198aa172c6dec8 = $(`<div id="html_6fda50bd992c9292e2198aa172c6dec8" style="width: 100.0%; height: 100.0%;"><b>Lakki Marwat</b><br>Mortar shell explosion in Lakki Marwat kills 5 children, injures 12 others</div>`)[0];
+                popup_b77cfde556891b2ee65f57b3e33eb0a4.setContent(html_6fda50bd992c9292e2198aa172c6dec8);
+            
+        
+
+        marker_5723fa2cad35775bba653edfd7fa8095.bindPopup(popup_b77cfde556891b2ee65f57b3e33eb0a4)
+        ;
+
+        
+    
+    
+            var marker_dbe557d788cc9bbf4403df1c9ae24228 = L.marker(
+                [32.6056744, 70.9113526],
+                {}
+            ).addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var icon_05262568a7c05ad35760568ab1e916d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dbe557d788cc9bbf4403df1c9ae24228.setIcon(icon_05262568a7c05ad35760568ab1e916d2);
+        
+    
+        var popup_262f3c08be31904d97f8cd48ce30a451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_335636dbf6ad9eeaf632b44398de75ff = $(`<div id="html_335636dbf6ad9eeaf632b44398de75ff" style="width: 100.0%; height: 100.0%;"><b>Lakki Marwat</b><br>Mortar shell explosion in Lakki Marwat kills 5 children, injures 12 others</div>`)[0];
+                popup_262f3c08be31904d97f8cd48ce30a451.setContent(html_335636dbf6ad9eeaf632b44398de75ff);
+            
+        
+
+        marker_dbe557d788cc9bbf4403df1c9ae24228.bindPopup(popup_262f3c08be31904d97f8cd48ce30a451)
+        ;
+
+        
+    
+    
+            var marker_ead67c3b06682367786cddd8827fb511 = L.marker(
+                [32.6056744, 70.9113526],
+                {}
+            ).addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var icon_911cb67e2eadde275de437fc7aa8797f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ead67c3b06682367786cddd8827fb511.setIcon(icon_911cb67e2eadde275de437fc7aa8797f);
+        
+    
+        var popup_dab15cf42b425b023befd5396b0b8c61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc3bb31bd74daef5df3b23b03901479 = $(`<div id="html_8cc3bb31bd74daef5df3b23b03901479" style="width: 100.0%; height: 100.0%;"><b>Lakki Marwat</b><br>Mortar shell explosion in Lakki Marwat kills 5 children, injures 12 others</div>`)[0];
+                popup_dab15cf42b425b023befd5396b0b8c61.setContent(html_8cc3bb31bd74daef5df3b23b03901479);
+            
+        
+
+        marker_ead67c3b06682367786cddd8827fb511.bindPopup(popup_dab15cf42b425b023befd5396b0b8c61)
+        ;
+
+        
+    
+    
+            var marker_1a7844d84f6e4b4b6ae919b7f72ce118 = L.marker(
+                [38.9435143, -77.0680334],
+                {}
+            ).addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var icon_826fae7fe19de1dd9544ec4f1ae3012e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a7844d84f6e4b4b6ae919b7f72ce118.setIcon(icon_826fae7fe19de1dd9544ec4f1ae3012e);
+        
+    
+        var popup_793de4d74005aeac2f4ece133b747812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cb0343845e1f1f7fd3e78d45a387a88 = $(`<div id="html_3cb0343845e1f1f7fd3e78d45a387a88" style="width: 100.0%; height: 100.0%;"><b>Us</b><br>Global Housing Crisis</div>`)[0];
+                popup_793de4d74005aeac2f4ece133b747812.setContent(html_3cb0343845e1f1f7fd3e78d45a387a88);
+            
+        
+
+        marker_1a7844d84f6e4b4b6ae919b7f72ce118.bindPopup(popup_793de4d74005aeac2f4ece133b747812)
+        ;
+
+        
+    
+    
+            var marker_7755b1616b6166bf24bd87b59b299f41 = L.marker(
+                [38.9435143, -77.0680334],
+                {}
+            ).addTo(map_557ae2d5b80b1f42f34b92f3ff9d3c32);
+        
+    
+            var icon_02df4ca47c48f15e57847fe71254c402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7755b1616b6166bf24bd87b59b299f41.setIcon(icon_02df4ca47c48f15e57847fe71254c402);
+        
+    
+        var popup_0bcc1f9d23c2e2a9d8253015e86029fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_285a8f1042da21c62645df76cf58f9b2 = $(`<div id="html_285a8f1042da21c62645df76cf58f9b2" style="width: 100.0%; height: 100.0%;"><b>Us</b><br>Global Housing Crisis</div>`)[0];
+                popup_0bcc1f9d23c2e2a9d8253015e86029fe.setContent(html_285a8f1042da21c62645df76cf58f9b2);
+            
+        
+
+        marker_7755b1616b6166bf24bd87b59b299f41.bindPopup(popup_0bcc1f9d23c2e2a9d8253015e86029fe)
+        ;
+
+        
+    
+</script>
+</html>
